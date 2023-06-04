@@ -1,0 +1,225 @@
+.products__content {
+    gap: 50px;
+}
+
+.logo {
+    font-size: 15px;
+}
+.main__content {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.vector > svg.arrow__svg{
+    width: 50px !important;
+    width: 50px !important;
+}
+
+/*Frst slide Css*/
+.frst__slide {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+/*Aside Css*/
+.country__div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside{
+    flex: 2;
+}
+
+.content__of__gift {
+    flex: 9;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+     max-width: 80%;
+    padding-top: 50px;
+}
+
+.gifts__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.country__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.022em;
+}
+
+.categorys__input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.country__inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #263238;
+}
+
+.country__inputs input{
+    width: 18px;
+    height: 18px;
+}
+
+.country__showMore {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*gap: 10px;*/
+}
+
+.price__div {
+    margin-top: 25px;
+}
+
+svg.plus__svg {
+    width: 24px;
+    height: 24px;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+}
+
+input.price__input{
+    width: 120px;
+    padding: 15px;
+    border: 1px solid #263238;
+    border-radius: 8px;
+}
+
+input.price__input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+/*_________________Gifts_settings_text ______________________*/
+.gifts__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.galery__horizonital {
+    display: flex;
+    gap: 20px;
+}
+
+.horizontal{
+    flex: 8;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertically{
+    flex: 2;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img__gift{
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.img__flex{
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    column-gap: 20px;
+}
+
+.img__flex img{
+    height: 100%;
+}
+
+.img__frst{
+    flex: 6;
+    background-image: url(../img/patricia-zavala.jpg);
+}
+
+.img__second{
+    flex: 2;
+    background-image: url(../img/eve-maier.jpg);
+}
+
+.img__third{
+    flex: 4;
+    background-image: url(../img/tara-yates.jpg);
+}
+
+.img__fourth{
+    flex: 4;
+    background-image: url(../img/sabrianna.jpg);
+}
+
+.img__fifth{
+    flex: 4;
+    background-image: url(../img/fanqi.jpg);
+}
+
+.img__sixth{
+    flex: 4;
+    background-image: url(../img/sabrianna-lb.jpg);
+}
+
+.img__seventh{
+    flex-grow: 7;
+    background-image: url(../img/sabrianna-Zo.jpg);
+}
+
+.img__eighth{
+    flex: 4;
+    background-image: url(../img/alex.jpg);
+}
+
+.gift__galery__deskription{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #727272;
+}
+
+.gifts__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    padding-left: 100px;
+}

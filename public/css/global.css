@@ -1,0 +1,25 @@
+/*Google fonts impoort*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Armenian:wght@600&family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@1,300&family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Armenian:wght@600&family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@1,300&family=Oranienbaum&family=Signika&display=swap');
+
+body{
+	margin: 0;
+}
+
+/*SVG div is display none*/
+#svg{
+	display: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+li{
+	list-style-type: none;
+}
+
+p{
+	margin: 0;
+}

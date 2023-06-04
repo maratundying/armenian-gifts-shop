@@ -1,0 +1,84 @@
+.slide__title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 90%;
+    color: #252525;
+}
+
+.show__all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    color: #767676;
+    font-family: 'Noto Sans Armenian', sans-serif;
+}
+
+.arrows__div {
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+	align-items: center;
+
+}
+
+svg.arrow__svg {
+    color: #6e5e56;
+    width: 50px;
+    height: 50px;
+}
+
+.slider {
+    display: flex;
+
+    gap: 35px;
+    overflow: hidden;
+}
+
+.gift__card {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gift__img img{
+    border-radius: 5px;
+}
+
+p.gift__name{
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+p.gift__price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #787885;
+}
+.product {
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+    cursor: auto;
+}
+.gifts__oderContry {
+    padding-left: 130px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,282 @@
+@media only screen and (max-width: 1253px) {
+
+#main {
+  display: block;
+}
+.form{
+    width: auto;
+    padding-top: 30px;
+}
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 1335px) and (min-width: 1080px){
+
+}
+@media only screen and (max-width: 1080px){
+
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 1253px) {
+.menu__punct {
+    display: none;
+}
+.menu{
+	flex-direction: row-reverse;
+}
+.title {
+    font-size: 24px;
+}
+.slider {
+    display: flex;
+    flex-wrap: inherit;
+}
+.gift__img img {
+    width: 150px;
+}
+.frst__slide {
+    flex-wrap: inherit;
+}
+.content__of__gift {
+    max-width: 65%;
+}
+
+}
+@media only screen and (max-width: 1253px) {
+
+.all {
+    display: flex;
+        align-items: center;
+}
+.country__div .nav-menu {
+    display: block;
+}
+.menu-nav {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: inherit;
+}
+.logo h1 {
+    font-size: 20px;
+}
+.logo {
+    text-align: center;
+}
+.footer_input {
+    width: auto;
+}
+.arrows__div {
+    gap: 15px;
+}
+
+.slider {
+    gap: 15px;
+}
+
+.send__button {
+    width: 100%;
+
+}
+.frst__slide {
+    flex-direction: column;
+    padding: 0 35px;
+}
+.content__of__gift {
+    max-width: 100%;
+    gap: 50px;
+}
+.main__content {
+    gap: 50px;
+}
+.title {
+    font-size: 22px;
+}
+.show__all {
+    font-size: 13px;
+}
+.vertically {
+    display: none;
+}
+.img__third {
+    display: none;
+}
+.img__sixth {
+    display: none;
+}
+.img__flex {
+    height: 200px;
+    column-gap: 10px;
+}
+.gifts__oderContry {
+    padding: 30px;
+}
+.gifts__text {
+    padding-left: 40px;
+}
+footer {
+    height: auto;
+    padding: 50px 40px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #926D50;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form_1 h1{
+	font-size: 34px;
+}
+section.forma {
+    padding: 0 50px;
+}
+p.ll{
+	font-size: 14px;
+}
+.contact_info{
+	flex-wrap: wrap;
+}
+input.nomer_telefon{
+	width: 77%;
+}
+input.poluch{
+	width: 100%;
+}
+.tovar_1{
+	width: 	100%;
+}
+input.nazv{
+	width: 	100%;
+}
+.adres{
+	flex-wrap: wrap;
+}
+input.kray, input.armenia{
+	width: 	100%;
+}
+.adres_2 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: start;
+}
+.adres_1{
+	flex: auto;
+}
+.adr{
+	width: 	auto;
+}
+input.indexx, input.kvart, input.gord {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 380px) {
+
+.all {
+    display: flex;
+        align-items: center;
+}
+.country__div .nav-menu {
+    display: block;
+}
+.menu-nav {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: inherit;
+}
+.logo h1 {
+    font-size: 20px;
+}
+.logo {
+    text-align: center;
+}
+.descript__text h2{
+	line-height: initial;
+}
+
+}
+@media only screen and (max-width: 760px) {
+	svg.arrow__svg {
+	    color: #6e5e56;
+	    width: 25px;
+	    height: 25px;
+	}
+	.vector > svg.arrow__svg {
+	    height: 50px !important;
+	    width: 50px !important;
+	}
+	.description_img{
+		flex-wrap: wrap;
+	}
+	main.main{
+	padding: 20px 20px;
+	}
+	.description__bacImg img{
+		width: 	auto;
+	}
+	.Description_img_text{
+		width: 	auto;
+	}
+
+	.cardd {
+	    padding: 20px 20px;
+	    width: 200px;
+	    height: 305px;
+	    font-size: 17px;
+	    line-height: 0px;
+	}
+	.description__bacImg img{
+		height: auto;
+	}
+	.footer_input{
+		font: 15px/3 sans-serif;
+	}
+	.Description_img_text{
+		flex-wrap: 	wrap;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+.all {
+    display: flex;
+        align-items: center;
+}
+.country__div .nav-menu {
+    display: block;
+}
+.menu-nav {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: inherit;
+}
+.logo h1 {
+    font-size: 20px;
+}
+.logo {
+    text-align: center;
+}
+.menu {
+    gap: 0px;
+}
+
+}
